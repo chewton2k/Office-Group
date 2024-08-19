@@ -17,13 +17,13 @@ struct ContentView : View {
         TabView(selection: $tabSelection) {
             HomePage()
                 .tag(1)
-            Text("Tab Content 2")
+            Text("Account Settings")
                 .tag(2)
             TextRecognition()
                 .tag(3)
             GroupView()
                 .tag(4)
-            Text("Tab Content 5")
+            Text("Settings tab")
                 .tag(5)
         }
         .overlay(alignment: .bottom) {
